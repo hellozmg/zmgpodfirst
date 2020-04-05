@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC8B27682439ACC800087423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B27672439ACC800087423 /* AppDelegate.swift */; };
+		AC8B276A2439ACC800087423 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B27692439ACC800087423 /* SceneDelegate.swift */; };
+		AC8B276C2439ACC800087423 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B276B2439ACC800087423 /* ViewController.swift */; };
+		AC8B276F2439ACC800087423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC8B276D2439ACC800087423 /* Main.storyboard */; };
+		AC8B27712439ACCB00087423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8B27702439ACCB00087423 /* Assets.xcassets */; };
+		AC8B27742439ACCB00087423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC8B27722439ACCB00087423 /* LaunchScreen.storyboard */; };
+		AC8B277F2439ACCB00087423 /* ZmgPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B277E2439ACCB00087423 /* ZmgPodTests.swift */; };
+		AC8B278A2439ACCB00087423 /* ZmgPodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B27892439ACCB00087423 /* ZmgPodUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC8B277B2439ACCB00087423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC8B275C2439ACC800087423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC8B27632439ACC800087423;
+			remoteInfo = ZmgPod;
+		};
+		AC8B27862439ACCB00087423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC8B275C2439ACC800087423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC8B27632439ACC800087423;
+			remoteInfo = ZmgPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC8B27642439ACC800087423 /* ZmgPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZmgPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8B27672439ACC800087423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC8B27692439ACC800087423 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC8B276B2439ACC800087423 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC8B276E2439ACC800087423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC8B27702439ACCB00087423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC8B27732439ACCB00087423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC8B27752439ACCB00087423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8B277A2439ACCB00087423 /* ZmgPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZmgPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8B277E2439ACCB00087423 /* ZmgPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZmgPodTests.swift; sourceTree = "<group>"; };
+		AC8B27802439ACCB00087423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8B27852439ACCB00087423 /* ZmgPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZmgPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8B27892439ACCB00087423 /* ZmgPodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZmgPodUITests.swift; sourceTree = "<group>"; };
+		AC8B278B2439ACCB00087423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC8B27612439ACC800087423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8B27772439ACCB00087423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8B27822439ACCB00087423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC8B275B2439ACC800087423 = {
+			isa = PBXGroup;
+			children = (
+				AC8B27662439ACC800087423 /* ZmgPod */,
+				AC8B277D2439ACCB00087423 /* ZmgPodTests */,
+				AC8B27882439ACCB00087423 /* ZmgPodUITests */,
+				AC8B27652439ACC800087423 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC8B27652439ACC800087423 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC8B27642439ACC800087423 /* ZmgPod.app */,
+				AC8B277A2439ACCB00087423 /* ZmgPodTests.xctest */,
+				AC8B27852439ACCB00087423 /* ZmgPodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC8B27662439ACC800087423 /* ZmgPod */ = {
+			isa = PBXGroup;
+			children = (
+				AC8B27672439ACC800087423 /* AppDelegate.swift */,
+				AC8B27692439ACC800087423 /* SceneDelegate.swift */,
+				AC8B276B2439ACC800087423 /* ViewController.swift */,
+				AC8B276D2439ACC800087423 /* Main.storyboard */,
+				AC8B27702439ACCB00087423 /* Assets.xcassets */,
+				AC8B27722439ACCB00087423 /* LaunchScreen.storyboard */,
+				AC8B27752439ACCB00087423 /* Info.plist */,
+			);
+			path = ZmgPod;
+			sourceTree = "<group>";
+		};
+		AC8B277D2439ACCB00087423 /* ZmgPodTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC8B277E2439ACCB00087423 /* ZmgPodTests.swift */,
+				AC8B27802439ACCB00087423 /* Info.plist */,
+			);
+			path = ZmgPodTests;
+			sourceTree = "<group>";
+		};
+		AC8B27882439ACCB00087423 /* ZmgPodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC8B27892439ACCB00087423 /* ZmgPodUITests.swift */,
+				AC8B278B2439ACCB00087423 /* Info.plist */,
+			);
+			path = ZmgPodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC8B27632439ACC800087423 /* ZmgPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC8B278E2439ACCB00087423 /* Build configuration list for PBXNativeTarget "ZmgPod" */;
+			buildPhases = (
+				AC8B27602439ACC800087423 /* Sources */,
+				AC8B27612439ACC800087423 /* Frameworks */,
+				AC8B27622439ACC800087423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZmgPod;
+			productName = ZmgPod;
+			productReference = AC8B27642439ACC800087423 /* ZmgPod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC8B27792439ACCB00087423 /* ZmgPodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC8B27912439ACCC00087423 /* Build configuration list for PBXNativeTarget "ZmgPodTests" */;
+			buildPhases = (
+				AC8B27762439ACCB00087423 /* Sources */,
+				AC8B27772439ACCB00087423 /* Frameworks */,
+				AC8B27782439ACCB00087423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC8B277C2439ACCB00087423 /* PBXTargetDependency */,
+			);
+			name = ZmgPodTests;
+			productName = ZmgPodTests;
+			productReference = AC8B277A2439ACCB00087423 /* ZmgPodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC8B27842439ACCB00087423 /* ZmgPodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC8B27942439ACCC00087423 /* Build configuration list for PBXNativeTarget "ZmgPodUITests" */;
+			buildPhases = (
+				AC8B27812439ACCB00087423 /* Sources */,
+				AC8B27822439ACCB00087423 /* Frameworks */,
+				AC8B27832439ACCB00087423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC8B27872439ACCB00087423 /* PBXTargetDependency */,
+			);
+			name = ZmgPodUITests;
+			productName = ZmgPodUITests;
+			productReference = AC8B27852439ACCB00087423 /* ZmgPodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC8B275C2439ACC800087423 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = zmg;
+				TargetAttributes = {
+					AC8B27632439ACC800087423 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					AC8B27792439ACCB00087423 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = AC8B27632439ACC800087423;
+					};
+					AC8B27842439ACCB00087423 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = AC8B27632439ACC800087423;
+					};
+				};
+			};
+			buildConfigurationList = AC8B275F2439ACC800087423 /* Build configuration list for PBXProject "ZmgPod" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC8B275B2439ACC800087423;
+			productRefGroup = AC8B27652439ACC800087423 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC8B27632439ACC800087423 /* ZmgPod */,
+				AC8B27792439ACCB00087423 /* ZmgPodTests */,
+				AC8B27842439ACCB00087423 /* ZmgPodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC8B27622439ACC800087423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8B27742439ACCB00087423 /* LaunchScreen.storyboard in Resources */,
+				AC8B27712439ACCB00087423 /* Assets.xcassets in Resources */,
+				AC8B276F2439ACC800087423 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8B27782439ACCB00087423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8B27832439ACCB00087423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC8B27602439ACC800087423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8B276C2439ACC800087423 /* ViewController.swift in Sources */,
+				AC8B27682439ACC800087423 /* AppDelegate.swift in Sources */,
+				AC8B276A2439ACC800087423 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8B27762439ACCB00087423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8B277F2439ACCB00087423 /* ZmgPodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8B27812439ACCB00087423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8B278A2439ACCB00087423 /* ZmgPodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC8B277C2439ACCB00087423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC8B27632439ACC800087423 /* ZmgPod */;
+			targetProxy = AC8B277B2439ACCB00087423 /* PBXContainerItemProxy */;
+		};
+		AC8B27872439ACCB00087423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC8B27632439ACC800087423 /* ZmgPod */;
+			targetProxy = AC8B27862439ACCB00087423 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC8B276D2439ACC800087423 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC8B276E2439ACC800087423 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC8B27722439ACCB00087423 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC8B27732439ACCB00087423 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC8B278C2439ACCB00087423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC8B278D2439ACCB00087423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC8B278F2439ACCB00087423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZmgPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmg.pod.ZmgPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC8B27902439ACCB00087423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZmgPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmg.pod.ZmgPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC8B27922439ACCC00087423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZmgPodTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmg.pod.ZmgPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZmgPod.app/ZmgPod";
+			};
+			name = Debug;
+		};
+		AC8B27932439ACCC00087423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZmgPodTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmg.pod.ZmgPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZmgPod.app/ZmgPod";
+			};
+			name = Release;
+		};
+		AC8B27952439ACCC00087423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZmgPodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmg.pod.ZmgPodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZmgPod;
+			};
+			name = Debug;
+		};
+		AC8B27962439ACCC00087423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZmgPodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmg.pod.ZmgPodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZmgPod;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC8B275F2439ACC800087423 /* Build configuration list for PBXProject "ZmgPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8B278C2439ACCB00087423 /* Debug */,
+				AC8B278D2439ACCB00087423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC8B278E2439ACCB00087423 /* Build configuration list for PBXNativeTarget "ZmgPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8B278F2439ACCB00087423 /* Debug */,
+				AC8B27902439ACCB00087423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC8B27912439ACCC00087423 /* Build configuration list for PBXNativeTarget "ZmgPodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8B27922439ACCC00087423 /* Debug */,
+				AC8B27932439ACCC00087423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC8B27942439ACCC00087423 /* Build configuration list for PBXNativeTarget "ZmgPodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8B27952439ACCC00087423 /* Debug */,
+				AC8B27962439ACCC00087423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC8B275C2439ACC800087423 /* Project object */;
+}
