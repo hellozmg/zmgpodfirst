@@ -15,6 +15,7 @@
 		AC8B27742439ACCB00087423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC8B27722439ACCB00087423 /* LaunchScreen.storyboard */; };
 		AC8B277F2439ACCB00087423 /* ZmgPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B277E2439ACCB00087423 /* ZmgPodTests.swift */; };
 		AC8B278A2439ACCB00087423 /* ZmgPodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B27892439ACCB00087423 /* ZmgPodUITests.swift */; };
+		AC8B27992439C35700087423 /* zmgClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B27982439C35700087423 /* zmgClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AC8B27852439ACCB00087423 /* ZmgPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZmgPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8B27892439ACCB00087423 /* ZmgPodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZmgPodUITests.swift; sourceTree = "<group>"; };
 		AC8B278B2439ACCB00087423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8B27982439C35700087423 /* zmgClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zmgClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		AC8B27662439ACC800087423 /* ZmgPod */ = {
 			isa = PBXGroup;
 			children = (
+				AC8B27972439C31200087423 /* Class */,
 				AC8B27672439ACC800087423 /* AppDelegate.swift */,
 				AC8B27692439ACC800087423 /* SceneDelegate.swift */,
 				AC8B276B2439ACC800087423 /* ViewController.swift */,
@@ -126,6 +129,14 @@
 				AC8B278B2439ACCB00087423 /* Info.plist */,
 			);
 			path = ZmgPodUITests;
+			sourceTree = "<group>";
+		};
+		AC8B27972439C31200087423 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				AC8B27982439C35700087423 /* zmgClass.swift */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC8B276C2439ACC800087423 /* ViewController.swift in Sources */,
+				AC8B27992439C35700087423 /* zmgClass.swift in Sources */,
 				AC8B27682439ACC800087423 /* AppDelegate.swift in Sources */,
 				AC8B276A2439ACC800087423 /* SceneDelegate.swift in Sources */,
 			);
