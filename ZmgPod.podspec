@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
  
 s.name         = "ZmgPod"
 s.version      = "1.0"
-s.summary      = "zmgFirstPod"
+s.summary      = "zmgFirstPod111"
 s.homepage     = "https://github.com/hellozmg/zmgpodfirst.git"
 s.license      = "MIT"
 s.author       = { "Zmg" => "791738673@qq.com" }
